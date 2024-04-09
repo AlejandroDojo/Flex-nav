@@ -3,3 +3,38 @@
     font-weight: 400;
     font-style: normal;
 }
+.nav  {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(59, 59, 59);
+}
+.nav-title {
+    margin: 10px;
+    color: white;
+}
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+}
+.nav-links a {
+    color: rgb(160, 157, 157);
+    text-decoration: none;
+}
+.nav-links .active {
+    color: white;
+}
+
+.btn {
+    color: rgb(255, 248, 248);
+    padding: 10px;
+    margin-right: 10px;
+    background-color: rgb(60, 211, 211);
+    border: 2px solid black;
+    box-shadow: 2px 5px black;
+}
+
+.btn {}
