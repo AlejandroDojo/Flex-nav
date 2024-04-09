@@ -19,6 +19,7 @@
     align-items: center;
     list-style: none;
     gap: 2rem;
+    padding: 0;
 }
 .nav-links a {
     color: rgb(160, 157, 157);
